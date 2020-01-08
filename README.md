@@ -30,6 +30,7 @@ bin/neo4j-admin import --id-type=STRING --multiline-fields=true \
 
                        
 导入成功显示如下：
+
 ```
 IMPORT DONE in 3s 337ms. 
 Imported:
@@ -44,6 +45,7 @@ Peak memory usage: 1.03 GB
 `MATCH (ee:my_entity) WHERE ee.name = "文天祥" RETURN ee;
 `
 点击展开子节点，返回效果如下
+
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/1578500414912.jpg)
 
 
@@ -53,5 +55,6 @@ Peak memory usage: 1.03 GB
 #### 公众号：作者微信：,作者邮箱联系方式：chris.wang.web@gmail.com
 
 捐赠作者（捐赠将用来购买服务器，OSS，更快的处理速度，更多的数据，更快的下载速度）
+
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/IMG_1597.JPG)
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/WechatIMG102.jpeg)
