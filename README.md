@@ -6,6 +6,7 @@
 | Topic                                    | Description                              |
 | :--------------------------------------- | :--------------------------------------- |
 | <a href="#百科数据">百科通用数据</a> | 百科通用数据 |
+| <a href="#医疗数据">医疗数据</a> | 疾病，症状，科室，用药等 |
 
 # 《百科数据》
 
@@ -49,6 +50,17 @@ Peak memory usage: 1.03 GB
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/1578500414912.jpg)
 
 
+# 《医疗数据》
+
+1.创建一个新的图谱
+2.下载数据
+
+链接:https://pan.baidu.com/s/1kMynr6lu13wyqTag7xUlpQ
+
+3.将数据解压到 data/databases 下
+4.启动服务
+5.查看效果
+![image](https://github.com/chriswangweb/KGData/blob/master/img/6.gif)
 
 # 联系作者
 
