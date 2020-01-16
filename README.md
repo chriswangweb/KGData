@@ -64,7 +64,7 @@ Peak memory usage: 1.03 GB
 
 # 联系作者
 
-#### 公众号：作者微信：,作者邮箱联系方式：chris.wang.web@gmail.com
+#### 公众号：作者微信：AI-decoder,作者邮箱联系方式：chris.wang.web@gmail.com
 
 捐赠作者（捐赠将用来购买服务器，OSS，更快的处理速度，更多的数据，更快的下载速度）
 
