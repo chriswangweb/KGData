@@ -65,6 +65,14 @@ Peak memory usage: 1.03 GB
 ### 5.查看效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/6.gif)
 
+# 《沪垃圾分类》
+
+### 1.使用方式同医疗数据
+
+### 2.数据地址：
+
+### 3.效果
+![image](https://github.com/chriswangweb/KGData/blob/master/img/7.gif)
 # 联系作者
 
 #### 公众号：作者微信：AI-decoder,作者邮箱联系方式：chris.wang.web@gmail.com
