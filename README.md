@@ -94,7 +94,7 @@ Peak memory usage: 1.03 GB
 
 ### 1.使用方式同医疗数据
 
-### 2.数据地址：https://github.com/chriswangweb/KGData/blob/master/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/graph.db.zip
+### 2.数据地址：https://github.com/chriswangweb/KGData/blob/master/ncov/graph.db.zip
 
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/8.gif)
