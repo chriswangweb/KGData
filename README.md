@@ -32,7 +32,9 @@ bin/neo4j-admin import --id-type=STRING --multiline-fields=true \
                        --relationships "import/relationship10.csv" \
 ```
 
-                       
+tips：
+#### 1.windows下请去掉命令中的换行符
+#### 2.windows下如果提示路径不对，可以将文件路径替换为完整路径                       
 导入成功显示如下：
 
 ```
@@ -55,11 +57,11 @@ Peak memory usage: 1.03 GB
 
 # 《医疗数据》
 
-### 1.创建一个新的图谱
+### 1.创建一个新的图谱(注意不要启动)
 
 ### 2.下载数据
 
-链接:https://pan.baidu.com/s/1kMynr6lu13wyqTag7xUlpQ
+例如：链接:https://pan.baidu.com/s/1kMynr6lu13wyqTag7xUlpQ
 
 ### 3.将数据解压到 data/databases 下
 ### 4.启动服务
