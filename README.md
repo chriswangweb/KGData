@@ -98,8 +98,19 @@ Peak memory usage: 1.03 GB
 
 ### 2.数据地址：https://github.com/chriswangweb/KGData/blob/master/ncov/graph.db.zip
 
+网络不好的可以使用网盘地址
+链接:https://pan.baidu.com/s/12-fLMV4jEc7BRXj4dUKQGg  密码:b08l
+
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/8.gif)
+
+# 汽车车灯
+## 哪个男人会不爱车
+
+### 1.使用方式同医疗数据
+### 2.数据地址
+### 3.效果
+![image](https://github.com/chriswangweb/KGData/blob/master/img/7.gif)
 
 # 联系作者
 
