@@ -26,7 +26,7 @@
 
 ### 3.解压后将两个文件放入 import 目录
 
-### 4.执行导入语句
+### 4.在命令行执行导入语句
 ```
 bin/neo4j-admin import --id-type=STRING --multiline-fields=true \
                        --nodes "import/entity10.csv"  \
@@ -131,6 +131,7 @@ Peak memory usage: 1.03 GB
 ### 2.数据地址：闲鱼搜索鱼塘：知识图谱
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/10.gif)
+![image](https://github.com/chriswangweb/KGData/blob/master/img/10.png)
 
 # 联系作者
 
