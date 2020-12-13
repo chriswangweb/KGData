@@ -57,7 +57,12 @@ Peak memory usage: 1.03 GB
 
 
 # 《医疗数据》
+## V3.5以上版本导入方法：
+### 1.stop要操作的库
+### 2.操作库 manager-》open terminal
+### 3.执行命令 bin/neo4j-admin load --from=/path/to/file/2020-03-241.dump --database=graph.db --force
 
+## 旧的导入方法：
 ### 1.创建一个新的图谱(注意不要启动)
 
 ### 2.下载数据
