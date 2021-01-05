@@ -133,7 +133,7 @@ Peak memory usage: 1.03 GB
 - 停止销售日期
 
 ### 1.使用方式同医疗数据
-### 2.数据地址：闲鱼搜索鱼塘：知识图谱
+### 2.数据地址：链接: https://pan.baidu.com/s/1ItgHr_YmT1iNsWbdZ4FF8g  密码: fh86 闲鱼搜索鱼塘：知识图谱
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/10.gif)
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/10.png)
