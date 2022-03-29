@@ -11,6 +11,7 @@
 | <a href="#汽车配件-车灯">汽车配件-车灯</a> | 各种型号各种年份汽车对应的各类车灯，安装方式 | 已完成 |
 | <a href="#新冠疫情">新冠疫情</a> | 新冠疫情公开的行为轨迹，可供做知识推理【公益免费】 | V1.0完成 |
 | <a href="#保险产品">保险产品</a> | 保险产品知识图谱，全网最全，种类超2.7w | 完成 |
+| <a href="#产业链">产业链</a> | 各种产品的分类 | 完成 |
 
 # 《百科数据》
 
@@ -137,6 +138,19 @@ Peak memory usage: 1.03 GB
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/10.gif)
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/10.png)
+
+# 工业产业链
+## 工业产品分类，上下游（找不到合适的数据源，宁缺毋滥）
+
+### 1.使用方式
+```
+LOAD CSV FROM 'file:///product.csv' AS line merge (:Product { id:line[0],name: line[1]})
+
+LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(to:Product{name:line[4]}) merge (from)-[r:Parent{level:line[3]}]->(to)
+```
+### 2.数据地址
+### 3.效果
+![image](https://github.com/chriswangweb/KGData/blob/master/img/product.png)
 
 # 联系作者
 
