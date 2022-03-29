@@ -148,7 +148,7 @@ LOAD CSV FROM 'file:///product.csv' AS line merge (:Product { id:line[0],name: l
 
 LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(to:Product{name:line[4]}) merge (from)-[r:Parent{level:line[3]}]->(to)
 ```
-### 2.数据地址
+### 2.数据地址 https://github.com/chriswangweb/KGData/blob/master/%E4%BA%A7%E4%B8%9A%E9%93%BE/product.csv
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/product.png)
 
