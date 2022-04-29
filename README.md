@@ -74,6 +74,8 @@ Peak memory usage: 1.03 GB
 ### 4.启动服务
 ### 5.查看效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/6.gif)
+### 6.微信小程序，本图谱+NLU+DM+GPT-3
+![image](https://github.com/chriswangweb/KGData/blob/master/img/wechatBot.gif)
 
 # 《垃圾分类》
 
@@ -151,6 +153,7 @@ LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(
 ### 2.数据地址 https://github.com/chriswangweb/KGData/blob/master/%E4%BA%A7%E4%B8%9A%E9%93%BE/product.csv
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/product.png)
+![image](https://github.com/chriswangweb/KGData/blob/master/img/product1.png)
 
 # 联系作者
 
