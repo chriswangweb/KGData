@@ -142,7 +142,7 @@ Peak memory usage: 1.03 GB
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/10.png)
 
 # 工业产业链
-## 工业产品分类，上下游（找不到合适的数据源，宁缺毋滥）
+## 工业产品分类，公司，产品，上下游（上下游数据对齐目前不足）
 
 ### 1.使用方式
 ```
