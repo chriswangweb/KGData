@@ -74,7 +74,8 @@ Peak memory usage: 1.03 GB
 ### 4.启动服务
 ### 5.查看效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/6.gif)
-### 6.微信小程序，本图谱+NLU+DM+GPT-3
+### 6.微信小程序（微信搜索：小橙机器人）
+#### 本图谱+NLU+DM+GPT-3
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/wechatBot.gif)
 
 # 《垃圾分类》
