@@ -87,8 +87,8 @@ Peak memory usage: 1.03 GB
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/7.gif)
 
-# 新冠疫情（这个研究没用，以后不再继续！）
-
+# 新冠疫情
+### 这个研究没用，以后不再更新
 ### 全网首份包含患者出行轨迹的知识图谱，换了超过 10 个数据源，目前的数据源算是最好的，但是还是包含较多的脏数据，后续会整理个精准度更高的版本
 
 ### 整理步骤如下：
@@ -114,7 +114,7 @@ Peak memory usage: 1.03 GB
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/8.gif)
 
-# 汽车车灯
+# 汽车配件-车灯
 ## 哪个男人会不爱车
 
 ### 1.使用方式同医疗数据
