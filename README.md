@@ -87,7 +87,7 @@ Peak memory usage: 1.03 GB
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/7.gif)
 
-# 新冠疫情
+# 新冠疫情（这个研究没用，以后不再继续！）
 
 ### 全网首份包含患者出行轨迹的知识图谱，换了超过 10 个数据源，目前的数据源算是最好的，但是还是包含较多的脏数据，后续会整理个精准度更高的版本
 
@@ -158,9 +158,4 @@ LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(
 
 # 联系作者
 
-#### 公众号：作者微信：AI-decoder,作者邮箱联系方式：chris.wang.web@gmail.com
-
-捐赠作者（捐赠将用来购买服务器，OSS，更快的处理速度，更多的数据，更快的下载速度）
-
-![image](https://github.com/chriswangweb/KGData/blob/master/img/wx.png)
-![image](https://github.com/chriswangweb/KGData/blob/master/img/zfb.png)
+#### 公众号：作者微信：AI-decoder，有志之士，会赠送完整知识图谱
