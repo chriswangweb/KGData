@@ -12,6 +12,11 @@
 | <a href="#新冠疫情">新冠疫情</a> | 新冠疫情公开的行为轨迹，可供做知识推理【公益免费】 | V1.0完成 |
 | <a href="#保险产品">保险产品</a> | 保险产品知识图谱，全网最全，种类超2.7w | 完成 |
 | <a href="#产业链">产业链</a> | 行业，公司，产品，上下游 | 完成 |
+| <a href="#">打井</a> | 打井知识图谱 | 收费 |
+| <a href="#">教育学-大学专业设置</a> | 教育学-大学专业设置 | 收费 |
+| <a href="#">高考</a> | 学校，专业，分数线等 | 收费 |
+| <a href="#">投资决策</a> | 创始人，企业，财务等 | 收费 |
+| <a href="#">行业专家圈子</a> | 实验室，论文等 | 收费 |
 
 # 《百科数据》
 
@@ -76,6 +81,7 @@ Peak memory usage: 1.03 GB
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/6.gif)
 ### 6.微信小程序（微信搜索：小橙机器人）
 #### 本图谱+NLU+DM+GPT-3
+#### 扫码体验
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/wechatBot.gif)
 
 # 《垃圾分类》
@@ -86,6 +92,16 @@ Peak memory usage: 1.03 GB
 
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/7.gif)
+
+### 4.落地效果
+https://www.bilibili.com/video/BV1BM4y117q8/
+
+#### 硬件列表
+树莓派4B，舵机*4，PCA9685舵机驱动板*1，垃圾桶模型，摄像头，5块钱的音箱
+![image](https://github.com/chriswangweb/KGData/blob/master/img/servo_motion.gif)
+![image](https://github.com/chriswangweb/KGData/blob/master/img/PCA9685.png)
+#### 架构图
+![image](https://github.com/chriswangweb/KGData/blob/master/img/laji.png)
 
 # 新冠疫情
 ### 这个研究没用，以后不再更新
