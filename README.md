@@ -158,4 +158,4 @@ LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(
 
 # 联系作者
 
-#### 公众号：作者微信：AI-decoder，有志之士，会赠送完整知识图谱
+#### 作者微信：AI-decoder
