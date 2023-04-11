@@ -83,7 +83,6 @@ Peak memory usage: 1.03 GB
 #### 本图谱+NLU+DM+GPT-3
 #### 扫码体验
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/wechatBot.jpeg)
-![image](https://github.com/chriswangweb/KGData/blob/master/img/img321.png)
 
 # 《垃圾分类》
 
@@ -174,5 +173,7 @@ LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/product1.png)
 
 # 联系作者
-![image](https://github.com/chriswangweb/KGData/blob/master/img/img321.png)
+
 #### 作者微信：AI-decoder
+# 搞得不赖，赏
+![image](https://github.com/chriswangweb/KGData/blob/master/img/img321.png)
