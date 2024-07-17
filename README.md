@@ -1,22 +1,24 @@
 # KGData
- 各个行业知识图谱分享，关系抽取，数据清洗，提供 neo4j 批量导入格式，图片不出来的看这里：https://www.jianshu.com/p/25e5e07b2464
+你的star就是我更新的动力 
+各个行业知识图谱分享，关系抽取，数据清洗，提供 neo4j 批量导入格式，图片不出来的看这里：https://www.jianshu.com/p/25e5e07b2464
  
  __Menu__
 
-| Topic                                    | Description                              | status                                  |
-| :--------------------------------------- | :--------------------------------------- | --------------------------------------- |
-| <a href="#百科数据">百科通用数据</a> | 百科通用数据 | 已完成，部分公开 |
-| <a href="#医疗数据">医疗数据</a> | 疾病，症状，科室，用药等 | 已完成 |
-| <a href="#垃圾分类">垃圾分类</a> | 上海垃圾分类数据 | 已完成，完全公开 |
-| <a href="#汽车配件-车灯">汽车配件-车灯</a> | 各种型号各种年份汽车对应的各类车灯，安装方式 | 已完成 |
-| <a href="#新冠疫情">新冠疫情</a> | 新冠疫情公开的行为轨迹，可供做知识推理【公益免费】 | V1.0完成 |
-| <a href="#保险产品">保险产品</a> | 保险产品知识图谱，全网最全，种类超2.7w | 完成 |
-| <a href="#产业链">产业链</a> | 行业，公司，产品，上下游 | 完成 |
-| <a href="#">打井</a> | 打井知识图谱 | 已完成 |
-| <a href="#">教育学-大学专业设置</a> | 教育学-大学专业设置 | 已完成 |
-| <a href="#">高考</a> | 学校，专业，分数线等 | 已完成 |
-| <a href="#">投资决策</a> | 创始人，企业，财务等 | 已完成 |
-| <a href="#">行业专家圈子</a> | 实验室，论文等 | 已完成 |
+| Topic                          | Description               | status                                  |
+|:-------------------------------|:--------------------------| --------------------------------------- |
+| <a href="#百科数据">百科通用数据</a>     | 百科通用数据                    | 已完成，部分公开 |
+| <a href="#医疗数据">医疗数据</a>       | 疾病，症状，科室，用药等              | 已完成 |
+| <a href="#垃圾分类">垃圾分类</a>       | 上海垃圾分类数据                  | 已完成，完全公开 |
+| <a href="#汽车配件-车灯">汽车配件-车灯</a> | 各种型号各种年份汽车对应的各类车灯，安装方式    | 已完成 |
+| <a href="#新冠疫情">新冠疫情</a>       | 新冠疫情公开的行为轨迹，可供做知识推理【公益免费】 | V1.0完成 |
+| <a href="#保险产品">保险产品</a>       | 保险产品知识图谱，全网最全，种类超2.7w     | 完成 |
+| <a href="#产业链">产业链</a>         | 行业，公司，产品，上下游              | 完成 |
+| <a href="#">打井</a>             | 打井知识图谱                    | 已完成 |
+| <a href="#">教育学-大学专业设置</a>     | 教育学-大学专业设置                | 已完成 |
+| <a href="#">高考</a>             | 学校，专业，分数线等                | 已完成 |
+| <a href="#">投资决策</a>           | 创始人，企业，财务等                | 已完成 |
+| <a href="#">行业专家圈子</a>         | 实验室，论文等                   | 已完成 |
+| <a href="#">CXO圈子</a>          | CXO姓名，岗位，公司等              | 已完成 |
 
 # 《百科数据》
 
@@ -172,6 +174,19 @@ LOAD CSV FROM "file:///product.csv" AS line match (from:Product{name:line[1]}),(
 ### 3.效果
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/product.png)
 ![image](https://github.com/chriswangweb/KGData/blob/master/img/product1.png)
+
+# CXO
+## CXO圈子
+
+### 1.使用方式
+```
+LOAD CSV FROM 'file:///peoper.csv' AS line merge (:CXO { 姓名: line[0], 公司: line[1], 岗位:line[2]})
+LOAD CSV FROM 'file:///peoper.csv' AS line merge (:company { title: line[1]})
+LOAD CSV FROM 'file:///peoper.csv' AS line match (from:CXO {姓名:line[0]}),(to:company {title:line[1]}) merge (from)-[r:belong]->(to);
+```
+### 2.数据 peoper.csv
+### 3.效果
+![image](https://github.com/chriswangweb/KGData/blob/master/CXO/result.png)
 
 # 联系作者
 
